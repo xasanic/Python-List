@@ -1,7 +1,11 @@
-# Task 04: input() yordamida foydalanuvchidan 3 ta ism olib ro'yxat yarating
-
 ismlar = []
-for i in range(3):
-    ism = input(f"{i+1}-ism kiriting: ")
-    ismlar.append(ism)
-print("Kiritilgan ismlar:", ismlar)
+
+ism1 = input("1-ism: ")
+ism2 = input("2-ism: ")
+ism3 = input("3-ism: ")
+
+ismlar.append(ism1)
+ismlar.append(ism2)
+ismlar.append(ism3)
+
+print(ismlar)
